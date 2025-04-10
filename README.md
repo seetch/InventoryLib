@@ -33,7 +33,7 @@ A powerful library for creating interactive GUI menus in Spigot/Bukkit plugins w
 
 ### Gradle 
 
-```json
+```
 maven {
     url = uri("https://repo.daycube.su/releases")
 }
