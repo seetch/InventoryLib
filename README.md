@@ -14,6 +14,8 @@ A powerful library for creating interactive GUI menus in Spigot/Bukkit plugins w
 
 ## Installation
 
+1. Add lib in your project:
+
 ### Maven
 
 ```xml
@@ -24,9 +26,19 @@ A powerful library for creating interactive GUI menus in Spigot/Bukkit plugins w
 
 <dependency>
   <groupId>su.daycube</groupId>
-  <artifactId>ItemBuilder</artifactId>
-  <version>1.0.1</version>
+  <artifactId>InventoryAPI</artifactId>
+  <version>1.0.0</version>
 </dependency>
+```
+
+### Gradle 
+
+```json
+maven {
+    url = uri("https://repo.daycube.su/releases")
+}
+
+implementation("su.daycube:InventoryAPI:1.0.0")
 ```
 
 2. Initialize the API in your plugin's onEnable():
